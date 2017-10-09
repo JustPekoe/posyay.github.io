@@ -1,39 +1,43 @@
+<!DOCKTYPE html>
 <html>
 	<head>
 		<title>Welcome!</title>
-		<link rel="stylesheet" href="css/styles.css">
+		<link rel="stylesheet" href="css/styles2.css">
 		<link href="https://fonts.googleapis.com/css?family=Inconsolata" rel="stylesheet">
 	</head>
 
 	<body>
 		<div class="container">
 			<header>
-
-				<ul class="utility-nav nav">
-					<li><a href="#">Random button</a></li>
-				</ul>
-
 				<img src="images/logo.png" class="logo">
-				<ul class="primary-nav nav">
-					<li><a href="#">Projects</a></li>
-					<li><a href="#">About Us</a></li>
-				</ul>
-				
-				<div class="dropdown">
-					<button onclick="myFunction()" class="dropbtn">Projects</button>
-					<div id="myDropdown" class="dropdown-content">
-						<a href="#">Link 1</a>
-						<a href="#">Link 2</a>
-						<a href="#">Link 3</a>
-					</div>
-				</div> 
-
+				<div class="primary-nav nav">
+					<a href= "#home">Home</a>
+					<div class="dropdown">
+						<button class="dropbtn">Projects &#9660 
+							<i class="fa fa-caret-down"></i>
+						</button>
+						<div class="dropdown-content">
+							<a href="#">Obvitotes</a>
+							<a href="#">Oray 1.0</a>
+						</div>
+					</div> 
+					<div class="dropdown">
+						<button class="dropbtn">About &#9660 
+							<i class="fa fa-caret-down"></i>
+						</button>
+						<div class="dropdown-content">
+							<a href="#">The Company</a>
+							<a href="#">Aleeze Asif</a>
+							<a href="#">Posy Au-Yeung</a>
+						</div>
+					</div> 
+				</div>
 			</header>
 
 			<div class="hero">
-				<img src="images/hero.jpg">
+				<img src="images/20170930_075258_edit.png">
 			</div>
-
+<!--
 			<div class="categories">
 				<div class="category">
 					<img src="images/mens-tshirts.jpg">
@@ -112,7 +116,29 @@
 					<p>All images used are copyright the original owners</p>
 				</div>
 			</footer>
-
+-->
 		</div>
+		
+		<!--
+		<script>
+		/* When the user clicks on the button, 
+		toggle between hiding and showing the dropdown content */
+		function myFunction() {
+			document.getElementById("projectsMenu").classList.toggle("show");
+		}
+
+		// Close the dropdown if the user clicks outside of it
+		window.onclick = function(e) {
+		  if (!e.target.matches('.dropbtn')) {
+			var projectsMenu = document.getElementById("projectsMenu");
+			  if (projectsMenu.classList.contains('show')) {
+				projectsMenu.classList.remove('show');
+			  }
+		  }
+		}
+		</script>
+		-->
+		
+
 	</body>
 </html>
