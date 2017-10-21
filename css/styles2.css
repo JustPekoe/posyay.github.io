@@ -6,7 +6,8 @@
 }
 
 body {
-	background-color: #CFCFCF;
+	/*background-color: #CFCFCF;*/
+	background-color: #FFFFFF;
 	margin: 0;
 }
 
@@ -63,7 +64,7 @@ img {
 
 /* Header */
 header {
-	background-color: #ddd;
+	background-color: #FFFFFF;
 	padding-top: 0;
 	padding-bottom: 0;
 }
@@ -198,14 +199,14 @@ footer {
     float: left;
     width: 48%;
     padding: 10px;
-	background-color: #BC75EB;
+	background-color: #8B37FA;
 }
 
 .column_right {
     float: right;
     width: 48%;
     padding: 10px;
-	background-color: #BC75EB;
+	background-color: #8B37FA;
 }
 
 
