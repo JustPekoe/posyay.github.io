@@ -1,11 +1,13 @@
 .container {
-	max-width: 1240px;
+	/*max-width: 1240px;*/
 	margin: 0 auto; /* centers the container on the page */
 	font-family: 'Inconsolata', monospace;
+	box-sizing: border-box;
 }
 
 body {
 	background-color: #CFCFCF;
+	margin: 0;
 }
 
 h1, h2, h3, h4{
@@ -15,7 +17,7 @@ h1, h2, h3, h4{
 	margin-bottom: default;
 	text-align: default;
 	text-transform: none;
-	font-family: 'Inconsolata', monospac
+	font-family: 'Inconsolata', monospace;
 }
 
 h1 {
@@ -105,6 +107,44 @@ header {
 	max-width: 1240px;
 	padding-top: 20px;
 	padding-bottom: 20px;
+	margin: auto;
+}
+
+
+/* Footer */
+
+footer {
+	background-color: #eee;
+	margin-top: 0;
+	margin-bottom: 0;
+	padding-top: 0;
+	padding-bottom: 0;
+	font-family: 'Inconsolata', monospace;
+}
+
+.footer-links {
+	display: inline-block;
+	padding: 0 30 0;
+}
+
+.footer-links a {
+	display: block;
+}
+
+.footer-links a:hover {
+	color: none;
+	font-weight: normal;
+	text-decoration: default;
+}
+
+.copyright {
+	display: inline;
+	color: inherit;
+	font-weight: inherit;
+	margin-top: inherit;
+	margin-bottom: inherit;
+	text-align: right;
+	text-transform: inherit;
 }
 
 
@@ -154,4 +194,31 @@ header {
 
 .dropdown:hover .dropdown-content {
     display: block;
+}
+
+/* Columns and Rows*/
+
+.column_left {
+    float: left;
+    width: 48%;
+    padding: 10px;
+}
+
+.column_right {
+    float: right;
+    width: 48%;
+    padding: 10px;
+}
+
+
+.row:after {
+	/*
+    content: "";
+    display: table;
+    clear: both;
+	*/
+	width: 100%;
+	margin: 0 auto;
+}
+
 
