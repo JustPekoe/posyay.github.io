@@ -121,8 +121,10 @@ footer {
 }
 
 .footer-links {
+	color: default;
 	display: inline-block;
-	padding: 0 30 0;
+	padding: 10 30;
+	vertical-align: text-top;
 }
 
 .footer-links a {
@@ -195,20 +197,14 @@ footer {
 
 
 /* Columns and Rows*/
-.column_left {
+.column {
     float: left;
-    width: 48%;
-    padding: 10px;
 	background-color: #9B84D7;
+	color: #FFFFFF;
+	padding: 10px;
+	margin-bottom: 10px;
+	width: 100%;
 }
-
-.column_right {
-    float: right;
-    width: 48%;
-    padding: 10px;
-	background-color: #9B84D7;
-}
-
 
 .row:after {
     content: "";
