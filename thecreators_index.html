@@ -1,7 +1,7 @@
 <!DOCKTYPE html>
 <html>
 	<head>
-		<title>Projects</title>
+		<title>Welcome!</title>
 		<link rel="stylesheet" href="css/styles2.css">
 		<link href="https://fonts.googleapis.com/css?family=Inconsolata" rel="stylesheet">
 	</head>
@@ -17,7 +17,7 @@
 							<i class="fa fa-caret-down"></i>
 						</button>
 						<div class="dropdown-content">
-							<a href="#">List of Projects</a>
+							<a href="project_index.html">List of Projects</a>
 							<a href="#">Obvitotes</a>
 							<a href="#">Oray 1.0</a>
 						</div>
@@ -34,6 +34,19 @@
 					</div> 
 				</div>
 			</header>
+			
+			<!--creates the row and columns on the page-->
+			<div class="row">
+				<div class="column">
+					<h2>Aleeze Asif</h2>
+					<p>Designer</p>
+				</div>
+				<div class="column">
+					<h2>Posy Au-Yeung</h2>
+					<p>Developer</p>
+				</div>
+			</div>
+			
 			
 			<footer>
 				<div class="footer-links">
@@ -59,7 +72,28 @@
 					<p>All images used are copyright the original owners</p>
 				</div>
 			</footer>
-			
 		</div>
+		
+		<!--
+		<script>
+		/* When the user clicks on the button, 
+		toggle between hiding and showing the dropdown content */
+		function myFunction() {
+			document.getElementById("projectsMenu").classList.toggle("show");
+		}
+
+		// Close the dropdown if the user clicks outside of it
+		window.onclick = function(e) {
+		  if (!e.target.matches('.dropbtn')) {
+			var projectsMenu = document.getElementById("projectsMenu");
+			  if (projectsMenu.classList.contains('show')) {
+				projectsMenu.classList.remove('show');
+			  }
+		  }
+		}
+		</script>
+		-->
+		
+
 	</body>
 </html>
