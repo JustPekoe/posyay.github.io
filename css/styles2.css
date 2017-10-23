@@ -9,6 +9,7 @@ body {
 	/*background-color: #CFCFCF;*/
 	background-color: #FFFFFF;
 	margin: 0;
+	padding: 0;
 }
 
 h1, h2, h3, h4{
@@ -37,6 +38,7 @@ h2 {
 	margin-bottom: inherit;
 	text-align: default;
 	text-transform: inherit;
+	padding: 0 0 0 10px;
 }
 
 h3 {
@@ -57,17 +59,28 @@ h4 {
 	text-transform: inherit;
 }
 
+p {
+	color: inherit;
+	font-weight: inherit;
+	margin-top: inherit;
+	margin-bottom: inherit;
+	text-align: default;
+	text-transform: inherit;
+	padding: 0 0 0 10px;
+	
+}
+
 img {
 	width: 100%;
 }
-
+/*
 .img_small {
 	background-color: #EFEDF4;
 	width: 422px;
 	height: 497px;
 	position: absolute;
 	right: 0;
-}
+}*/
 
 /* Header */
 header {
@@ -113,7 +126,6 @@ header {
 /* Hero */
 .hero {
 	max-width: 1240px;
-	padding-top: 20px;
 	padding-bottom: 20px;
 	margin: auto;
 }
@@ -203,6 +215,36 @@ footer {
 
 .dropdown:hover .dropdown-content {
     display: block;
+}
+
+/* Columns and rows layout */
+
+.column {
+	float: left;
+	background-color: #EFEDF4;
+	margin-bottom: 10px;
+}
+
+.column.image {
+	width: 37.5%;
+}
+
+.column.text {
+	width: 62.5%;
+	height: 100%;
+	padding: 10px 0 10px 0;
+}
+
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+@media (max-width: 600px) {
+    .column.image, .column.text {
+        width: 100%;
+    }
 }
 
 .article {
