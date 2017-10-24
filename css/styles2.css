@@ -224,6 +224,7 @@ footer {
 	/*float: left;*/
 	background-color: #EFEDF4;
 	display: table-cell;
+	margin-bottom: 10px;
 	overflow: auto;
 }
 
