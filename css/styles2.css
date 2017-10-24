@@ -217,12 +217,14 @@ footer {
     display: block;
 }
 
+
 /* Columns and rows layout */
 
 .column {
-	float: left;
+	/*float: left;*/
 	background-color: #EFEDF4;
-	margin-bottom: 10px;
+	display: table-cell;
+	overflow: auto;
 }
 
 .column.image {
@@ -231,18 +233,28 @@ footer {
 
 .column.text {
 	width: 62.5%;
-	height: 100%;
 	padding: 10px 0 10px 0;
+	vertical-align: top;
+}
+
+.row {
+	display: table;
+	width: 100%;
+	margin-bottom: 10px;
+	
 }
 
 .row:after {
     content: "";
     display: table;
     clear: both;
-}
+} 
 
-@media (max-width: 600px) {
+
+
+@media (max-width: 700px) {
     .column.image, .column.text {
+		display: block;
         width: 100%;
     }
 }
