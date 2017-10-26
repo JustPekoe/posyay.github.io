@@ -57,6 +57,7 @@ h4 {
 	margin-bottom: inherit;
 	text-align: default;
 	text-transform: inherit;
+	padding: 0 0 0 10px;
 }
 
 p {
@@ -66,7 +67,7 @@ p {
 	margin-bottom: inherit;
 	text-align: default;
 	text-transform: inherit;
-	padding: 0 0 0 10px;
+	padding: 50px;
 	
 }
 
