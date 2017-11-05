@@ -1,5 +1,4 @@
 .container {
-	/*max-width: 1240px;*/
 	margin: 0 auto; /* centers the container on the page */
 	font-family: 'Inconsolata', monospace;
 	box-sizing: border-box;
@@ -38,6 +37,7 @@ h2 {
 	margin-bottom: inherit;
 	text-align: default;
 	text-transform: inherit;
+	padding: 0 0 0 10px;
 }
 
 h3 {
@@ -56,6 +56,7 @@ h4 {
 	margin-bottom: inherit;
 	text-align: default;
 	text-transform: inherit;
+	padding: 0 0 0 10px;
 }
 
 h5 {
@@ -67,17 +68,20 @@ h5 {
 	text-transform: inherit;
 }
 
+p {
+	color: inherit;
+	font-weight: inherit;
+	margin-top: inherit;
+	margin-bottom: inherit;
+	text-align: default;
+	text-transform: inherit;
+	padding: 50px;
+	
+}
+
 img {
 	width: 100%;
 }
-/*
-.img_small {
-	background-color: #EFEDF4;
-	width: 422px;
-	height: 497px;
-	position: absolute;
-	right: 0;
-}*/
 
 /* Header */
 header {
