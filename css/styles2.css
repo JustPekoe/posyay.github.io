@@ -1,15 +1,15 @@
+*{
+	box-sizing: border-box;
+}
+
 .container {
-	/*max-width: 1240px;*/
 	margin: 0 auto; /* centers the container on the page */
 	font-family: 'Inconsolata', monospace;
 	box-sizing: border-box;
 }
 
 body {
-	/*background-color: #CFCFCF;*/
-	background-color: #FFFFFF;
 	margin: 0;
-	padding: 0;
 }
 
 h1, h2, h3, h4, h5{
@@ -24,6 +24,7 @@ h1, h2, h3, h4, h5{
 
 h1 {
 	color: inherit;
+	font-size: 50px;
 	font-weight: inherit;
 	margin-top: inherit;
 	margin-bottom: inherit;
@@ -65,6 +66,16 @@ h5 {
 	margin-bottom: inherit;
 	text-align: default;
 	text-transform: inherit;
+}
+
+p {
+	color: inherit;
+	font-weight: inherit;
+	margin-top: inherit;
+	margin-bottom: inherit;
+	text-align: default;
+	text-transform: inherit;
+	padding: 30px 150px 30px 150px;
 }
 
 img {
@@ -209,39 +220,36 @@ footer {
 
 /* Columns and rows layout */
 
-.column {
-	/*float: left;*/
-	background-color: #EFEDF4;
-	display: table-cell;
-	margin-bottom: 10px;
-	overflow: auto;
-}
-
-.column.image {
-	width: 37.5%;
-}
-
-.column.text {
-	width: 62.5%;
-	padding: 10px 0 10px 0;
-	vertical-align: top;
-}
-
 .row {
 	display: table;
 	width: 100%;
 	margin-bottom: 10px;
-	
 }
 
 .row:after {
     content: "";
     display: table;
     clear: both;
-} 
+}
+
+.column {
+	display: table-cell;
+	background-color: #EFEDF4;
+	vertical-align: top;
+}
+
+.column.left {
+	width: 65%;
+	padding: 30px;
+}
+
+.column.right {
+	width: 35%;
+}
+
 
 @media (max-width: 700px) {
-    .column.image, .column.text {
+    .left, .right, .column.image, .column.text {
 		display: block;
         width: 100%;
     }
