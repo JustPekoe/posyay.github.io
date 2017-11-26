@@ -23,15 +23,18 @@ h1, h2, h3, h4, h5{
 
 h1 {
 	color: inherit;
+	font-size: 50px;
 	font-weight: inherit;
 	margin-top: inherit;
 	margin-bottom: inherit;
 	text-align: default;
 	text-transform: inherit;
+	padding: 0 0 0 10px;
 }
 
 h2 {
 	color: inherit;
+	font-size: 30px;
 	font-weight: inherit;
 	margin-top: inherit;
 	margin-bottom: inherit;
@@ -75,8 +78,7 @@ p {
 	margin-bottom: inherit;
 	text-align: default;
 	text-transform: inherit;
-	padding: 50px;
-	
+	padding: 20px 150px 20px 150px;
 }
 
 img {
