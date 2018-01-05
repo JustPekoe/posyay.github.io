@@ -23,7 +23,7 @@ h1, h2, h3, h4, h5{
 }
 
 h1 {
-	color: #66BCA1;
+	color: #C64444;
 	font-size: 50px;
 	font-weight: inherit;
 	margin-top: inherit;
@@ -265,7 +265,7 @@ footer {
 	display: inline-block;
 	padding: 10px 25px;
 	color: white;
-	background-color: #66BCA1;
+	background-color: #C64444;
 	text-align: center;
 	cursor: pointer;
 	text-decoration: none;
