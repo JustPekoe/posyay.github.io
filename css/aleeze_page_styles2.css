@@ -259,6 +259,10 @@ footer {
 
 /* Button */
 
+.button_wrapper {
+	text-align: center;
+}
+
 .button {
 	border: none;
 	outline: 0;
