@@ -4,7 +4,9 @@
 
 .container {
 	margin: 0 auto; /* centers the container on the page */
+	font-family: 'Exo', sans-serif;
 	font-family: 'Inconsolata', monospace;
+    font-family: 'Roboto', sans-serif;
 	box-sizing: border-box;
 }
 
@@ -19,7 +21,7 @@ h1, h2, h3, h4, h5{
 	margin-bottom: default;
 	text-align: default;
 	text-transform: none;
-	font-family: 'Inconsolata', monospace;
+	font-family: 'Exo', sans-serif;
 }
 
 h1 {
@@ -31,6 +33,7 @@ h1 {
 	text-align: default;
 	text-transform: inherit;
 	padding: 20px 50px 30px 20px;
+	font-family: 'Roboto', sans-serif;
 }
 
 h2 {
@@ -71,12 +74,13 @@ h5 {
 
 p {
 	color: inherit;
-	font-weight: inherit;
 	margin-top: inherit;
 	margin-bottom: inherit;
 	text-align: default;
 	text-transform: inherit;
 	padding: 20px 50px 30px 20px;
+    font-family: 'Roboto', sans-serif;
+	font-weight: 100;
 }
 
 img {
@@ -106,6 +110,7 @@ header {
 .primary-nav {
 	overflow: hidden;
 	background-color: white;
+	font-family: 'Exo', sans-serif;
 }
 
 .primary-nav a {
@@ -131,7 +136,7 @@ footer {
 	margin-bottom: 0;
 	padding-top: 0;
 	padding-bottom: 0;
-	font-family: 'Inconsolata', monospace;
+	font-family: 'Exo', sans-serif;
 }
 
 .footer-links {
@@ -174,9 +179,9 @@ footer {
     border: none;
     outline: none;
     color: #646068;
-    padding: 24px 30px;
+    padding: 24px 35px;
     background-color: inherit;
-	font-family: 'Inconsolata', monospace;
+	font-family: 'Exo', sans-serif;
 }
 
 .dropdown:hover .dropbtn {
@@ -191,6 +196,8 @@ footer {
     min-width: 160px;
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
     z-index: 1;
+	font-weight: 100;
+
 }
 
 .dropdown-content a {

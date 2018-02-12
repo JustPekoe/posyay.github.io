@@ -19,7 +19,7 @@ h1, h2, h3, h4, h5{
 	margin-bottom: default;
 	text-align: default;
 	text-transform: none;
-	font-family: 'Inconsolata', monospace;
+	font-family: 'Exo', sans-serif;
 }
 
 h1 {
@@ -30,6 +30,7 @@ h1 {
 	margin-bottom: inherit;
 	text-align: default;
 	text-transform: inherit;
+	padding: 30px 60px 30px 60px;
 }
 
 h2 {
@@ -75,12 +76,14 @@ p {
 	margin-bottom: inherit;
 	text-align: default;
 	text-transform: inherit;
-	padding: 30px 150px 30px 150px;
+	padding: 30px 60px 30px 60px;
+	font-family: 'Inconsolata', monospace;
 }
 
 img {
 	width: 100%;
 }
+
 /*
 .img_small {
 	background-color: #EFEDF4;
@@ -113,6 +116,7 @@ header {
 .primary-nav {
 	overflow: hidden;
 	background-color: white;
+	font-family: 'Exo', sans-serif;
 }
 
 .primary-nav a {
@@ -181,9 +185,9 @@ footer {
     border: none;
     outline: none;
     color: #646068;
-    padding: 24px 30px;
+    padding: 24px 35px;
     background-color: inherit;
-	font-family: 'Inconsolata', monospace;
+	font-family: 'Exo', sans-serif;
 }
 
 .dropdown:hover .dropbtn {
@@ -207,6 +211,7 @@ footer {
     text-decoration: none;
     display: block;
     text-align: left;
+	font-weight: 100;
 }
 
 .dropdown-content a:hover {
@@ -234,17 +239,17 @@ footer {
 
 .column {
 	display: table-cell;
-	background-color: #EFEDF4;
+	background-color: #FFFFF;
 	vertical-align: top;
 }
 
 .column.left {
-	width: 65%;
+	width: 50%;
 	padding: 30px;
 }
 
 .column.right {
-	width: 35%;
+	width: 50%;
 }
 
 
