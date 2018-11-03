@@ -21,7 +21,7 @@ h1, h2, h3, h4, h5{
 	margin-bottom: default;
 	text-align: default;
 	text-transform: none;
-	font-family: 'Exo', sans-serif;
+	font-family: 'Inconsolata', monospace;
 }
 
 h1 {
@@ -110,7 +110,7 @@ header {
 .primary-nav {
 	overflow: hidden;
 	background-color: white;
-	font-family: 'Exo', sans-serif;
+	font-family: 'Inconsolata', monospace;
 }
 
 .primary-nav a {
@@ -136,7 +136,7 @@ footer {
 	margin-bottom: 0;
 	padding-top: 0;
 	padding-bottom: 0;
-	font-family: 'Exo', sans-serif;
+	font-family: 'Inconsolata', monospace;
 }
 
 .footer-links {
@@ -181,7 +181,7 @@ footer {
     color: #646068;
     padding: 24px 35px;
     background-color: inherit;
-	font-family: 'Exo', sans-serif;
+	font-family: 'Inconsolata', monospace;
 }
 
 .dropdown:hover .dropbtn {
