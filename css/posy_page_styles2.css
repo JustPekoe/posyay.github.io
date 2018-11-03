@@ -4,9 +4,7 @@
 
 .container {
 	margin: 0 auto; /* centers the container on the page */
-	font-family: 'Exo', sans-serif;
 	font-family: 'Inconsolata', monospace;
-    font-family: 'Roboto', sans-serif;
 	box-sizing: border-box;
 }
 
