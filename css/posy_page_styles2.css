@@ -121,7 +121,7 @@ header {
 }
 
 .primary-nav a:hover {
-	background-color: #5A208C;
+	background-color: #66BCA1;
 	color: white;
 	font-weight: normal;
 	text-decoration: none;
@@ -183,7 +183,7 @@ footer {
 }
 
 .dropdown:hover .dropbtn {
-    background-color: #5A208C;
+    background-color: #66BCA1;
 	color: white;
 }
 
@@ -207,7 +207,7 @@ footer {
 }
 
 .dropdown-content a:hover {
-    background-color: #5A208C;
+    background-color: #66BCA1;
 }
 
 .dropdown:hover .dropdown-content {
